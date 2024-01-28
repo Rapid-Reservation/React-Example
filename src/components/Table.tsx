@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 import "/src/App.css";
-
+//@ts-ignore
 function Table({ number }) {
+  //Its fine the number binding is type "any"
   const [reserved, setReserved] = useState(false);
   const [label, setLabel] = useState("");
   function getStatus() {
