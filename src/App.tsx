@@ -1,28 +1,12 @@
-import { useState } from "react";
+import Floor from "./components/Floor";
 
 import "./App.css";
+import Table from "./components/table";
 
 function App() {
-  const [reserved, setReserved] = useState(false);
-  const [label, setLabel] = useState("");
-  function getStatus() {
-    if (reserved == false) {
-      setReserved(true);
-      setLabel("Taken");
-    } else if (reserved == true) {
-      setReserved(false);
-      setLabel("Open");
-    }
-  }
-
   return (
     <>
-      <div className="table">
-        <div className={reserved ? "background-taken" : "background-open"}>
-          <p>Table #1 : {label}</p>
-          <button onClick={getStatus}>Click me </button>
-        </div>
-      </div>
+      <Floor />
     </>
   );
 }
