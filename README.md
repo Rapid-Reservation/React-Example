@@ -15,13 +15,18 @@ Vite created a majority of the files, dont feel overwhelmed! The only code that 
 
 ## Practice makes perfect
 
-I **HIGHLY** recommend whoever will be working on the Front End UI to do the [React: Tic Tac Toe](https://react.dev/learn/tutorial-tic-tac-toe) tutorial. After completing it, try to implement the following features:
+I **HIGHLY** recommend whoever will be working on the Front End UI to do the [React: Tic Tac Toe](https://react.dev/learn/tutorial-tic-tac-toe) tutorial. ~~After completing it, try to implement the following features:~~
 
-- Pass in Table properties( aka parameters) such as - name on reservation, table number
-- Move the table code into its own component, and pass it to App.tsx
-- Build a Floor component, comprised of Tables.
+~~- Pass in Table properties( aka parameters) such as - name on reservation, table number~~
+~~- Move the table code into its own component, and pass it to App.tsx~~
+~~- Build a Floor component, comprised of Tables.~~
 
-ALL of this is possible, just by doing a quick (will take an hour TOPS) tutorial and understanding the basics. I hope this is helpful and as always, feel free to reach out !
+~~ALL of this is possible, just by doing a quick (will take an hour TOPS) tutorial and understanding the basics. I hope this is helpful and as always, feel free to reach out !~~
+
+So I have gone ahead and implemented this, hosted a Tooling Demo and explained how it all works! Going forward, something this can be used to practice implementing a database
+
+- Take state of reserved and non-reserved tables and send to DB
+- Be able to load state from DB to update UI
 
 Cheers!
 
